@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.header-btn {
+    background-color: #3498db;
+    line-height: 38px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    padding: 8px 47px;
+    border-radius: 5px;
+    display: inline;
+    border: none;
+    text-decoration: none;
+
+}
+
+.bg-cover {
+
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    height: 115vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.81) 0%, rgba(193, 185, 185, 0.3) 100%), url("images/doc.jpg");
+
+
+}
+
+.heading {
+    line-height: 58px;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+}
+
+.head-p {
+    font-style: italic;
+    line-height: 32px;
+    font-size: 20px;
+    color: rgb(239, 239, 239);
+}
+
+.sec-2 {
+    background-color: rgb(242, 244, 246);
+}
+
+.card {
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2), inset -2px -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    position: relative;
+    bottom: 15px
+}
+
+.rounded-circle {
+    border: 10px solid rgb(242, 244, 246);
+    width: 35%;
+    padding: 13px;
+
+}
+
+.text-muted {
+    font-family: 'Quattrocento', serif;
+    color: rgb(117, 126, 137);
+    font-weight: 400;
+    font-size: 17px;
+    text-align: left;
+}
+
+.card-title {
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.81);
+    font-weight: 700;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#youtube-v {
+    width: 598px;
+    height: 329px;
+    object-fit: cover;
+}
+
+#y-v {
+    width: 100%;
+
+}
+
+.y-d {
+    line-height: 62px;
+    font-size: 48px;
+    color: rgba(0, 0, 0, 0.81);
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.para {
+    line-height: 30px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.82);
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.sep {
+    margin-top: 8rem;
+}
+
+.ch {
+    line-height: 39px;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.82);
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sec-3 {
+    background-color: #efefef;
+
+}
+
+.chs {
+    line-height: 32px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.81);
+    font-family: 'Roboto', sans-serif;
+    padding-top: 60px;
+}
+
+.sech1 {
+
+    line-height: 43px;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.82);
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sec4-h1 {
+    font-family: 'Rubik', sans-serif;
+    color: rgb(0, 52, 120);
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+}
+
+.bg-image {
+    background: url(images/pad.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.form-container {
+    margin-bottom: 50px;
+}
+
+.sec4-h2 {
+    line-height: 34px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.82);
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sec4-p {
+    font-family: 'Quattrocento', serif;
+    color: rgb(117, 126, 137);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+}
+
+.txt {
+    font-weight: 700;
+    color: black;
+
+
+}
+
+.tex {
+    padding: 10px 70px 10px 4px;
+    margin-top: 15px;
+
+}
+
+.formimg {
+    border-radius: 2%;
+    height: 30vh;
+    background: url(images/rec.png) no-repeat center center;
+  
+}
+
+#sec5 {
+}
+
+@media screen and (min-width: 375px) and (max-width: 900px) {
+
+    /* styles applied when the viewport width is between 600px and 1200px */
+    #sec5 {
+    }
+    #sec6 {
+        margin-top: 700px;
+    }
+}
